@@ -4,7 +4,6 @@ import android.content.Context;
 
 /**
  * CommonUtil
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class CommonRes {

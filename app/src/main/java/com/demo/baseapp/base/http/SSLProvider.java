@@ -21,7 +21,6 @@ import javax.net.ssl.X509TrustManager;
 
 /**
  * SSLProvider
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class SSLProvider {

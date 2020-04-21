@@ -19,7 +19,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * RetrofitManager
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class RetrofitManager {

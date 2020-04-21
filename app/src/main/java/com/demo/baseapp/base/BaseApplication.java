@@ -10,7 +10,6 @@ import androidx.multidex.MultiDex;
 
 /**
  * BaseApplication
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class BaseApplication extends Application {

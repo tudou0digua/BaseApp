@@ -4,7 +4,6 @@ import android.util.Log;
 
 /**
  * LOGGER
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class LOGGER {

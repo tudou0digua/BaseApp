@@ -8,7 +8,6 @@ import okhttp3.Response;
 
 /**
  * DefaultInterception
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class DefaultInterception implements Interceptor {

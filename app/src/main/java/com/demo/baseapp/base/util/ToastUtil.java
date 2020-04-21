@@ -7,7 +7,6 @@ import androidx.annotation.StringRes;
 
 /**
  * ToastUtil
- * Author: chenbin
  * Time: 2020-04-21
  */
 public class ToastUtil {

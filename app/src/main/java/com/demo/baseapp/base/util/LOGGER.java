@@ -2,6 +2,8 @@ package com.demo.baseapp.base.util;
 
 import android.util.Log;
 
+import com.demo.baseapp.BuildConfig;
+
 /**
  * LOGGER
  * Time: 2020-04-21
@@ -15,6 +17,14 @@ public class LOGGER {
     public static final int LEVEL_E = 5;
 
     private static int logLevel = LEVEL_E;
+
+    public static void init() {
+        if (BuildConfig.DEBUG) {
+            setLogLevel(LEVEL_D);
+        } else {
+            setLogLevel(LEVEL_E);
+        }
+    }
 
     public static void setLogLevel(int logLevel) {
         LOGGER.logLevel = logLevel;

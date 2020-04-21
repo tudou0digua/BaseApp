@@ -5,6 +5,7 @@ import android.content.Context;
 
 import com.blankj.utilcode.util.ProcessUtils;
 import com.demo.baseapp.base.util.CommonRes;
+import com.demo.baseapp.base.util.LOGGER;
 
 import androidx.multidex.MultiDex;
 
@@ -25,6 +26,7 @@ public class BaseApplication extends Application {
         }
 
         CommonRes.getInstance().setAppContext(this);
+        LOGGER.init();
     }
 
     @Override
